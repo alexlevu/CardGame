@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sfml_project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfml_project">
+				<Option output="C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/sfml_project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="F:/SFML-2.5.1/include"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 sfml_project"/>
+					<CompileFile command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfml_project/fast">
+				<Option output="C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/sfml_project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="F:/SFML-2.5.1/include"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 sfml_project/fast"/>
+					<CompileFile command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Alex/Downloads/i686-7.3.0-release-posix-dwarf-rt_v5-rev0/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Alex/CLionProjects/sfml_projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Button.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Button.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Card.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Card.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/CardHand.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/CardHand.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Deck.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Deck.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/ImageName.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Images.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Images.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/LinkedList.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/LinkedList.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Node.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/PokerStuff/CardHandScorer.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/PokerStuff/CardHandScorer.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/PokerStuff/PokerScore.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/PokerStuff/PokerScore.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/PokerStuff/PokerScorer.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/PokerStuff/PokerScorer.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Rank.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Rank.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/RanksENUM.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/SFMLBackground.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/SFMLBackground.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/SFMLCard.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/SFMLCard.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/SFMLRank.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/SFMLRank.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/SFMLSuit.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/SFMLSuit.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Screen.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Screen.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/States.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/States.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/StatesEnum.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Suit.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/Suit.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/SuitsENUM.h">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/main.cpp">
+			<Option target="sfml_project"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/sfml_projects/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
